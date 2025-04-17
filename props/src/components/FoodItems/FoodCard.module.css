@@ -1,0 +1,47 @@
+/* src/components/FoodCard.module.css */
+.singleFood {
+  width: 100%;
+  max-width: 370px;
+  margin: 18px auto;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: all 0.5s;
+  height: 500px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.singleFood:hover {
+  transform: scale(1.007);
+  cursor: pointer;
+}
+
+.img img {
+  width: 100%;
+  height: auto;
+}
+
+.titlePrice {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+.titlePrice h3 {
+  font-size: 16px;
+}
+
+.titlePrice p {
+  background-color: #ff9500;
+  padding: 3px 7px;
+  color: white;
+  border-radius: 5px;
+}
+
+.foodDesc {
+  padding: 0 20px;
+  font-size: 15px;
+  font-weight: 300;
+}
