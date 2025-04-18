@@ -1,5 +1,3 @@
-// src/components/FoodCard.jsx
-import React from "react";
 import styles from "./FoodCard.module.css";
 
 const FoodCard = ({ title, price, description, image }) => {

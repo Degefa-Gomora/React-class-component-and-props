@@ -41,7 +41,7 @@ body {
   margin: 0 auto;
 }
 
-.single-food {
+/* .single-food {
   width: 100%;
   max-width: 370px;
   margin: 18px auto;
@@ -89,7 +89,7 @@ body {
   padding: 0 20px;
   font-size: 15px;
   font-weight: 300;
-}
+} */
 
 /* Responsive design */
 @media (max-width: 1200px) {

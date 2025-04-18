@@ -1,8 +1,6 @@
-// src/App.jsx
-import React from "react";
 import FoodCard from "./components/FoodItems/FoodCard";
 import menuData from "./components/data/menuData";
-import "./App.css"; // If you need base styles like body background, fonts, etc.
+import "./App.css"; 
 
 const App = () => {
   return (
