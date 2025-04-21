@@ -54,7 +54,7 @@
   border-radius: 5px;
   display: flex;
   justify-content: center;   /* center horizontally */
-  align-items: flex-end;     /* push to bottom */
+  align-items: center;     /* push to bottom */
   height: 2px;             /* give it height to see the effect */
 }
 

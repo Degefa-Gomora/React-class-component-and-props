@@ -58,6 +58,7 @@ const menuData = [
     price: 28.99,
     img: "https://www.willflyforfood.net/wp-content/uploads/2021/09/ethiopian-food-kitfo-gored.jpg.webp",
     desc: `If kitfo piqued your interest, then you may want to try gored gored as well. It’s a similar dish to kitfo except it’s made with cubes of raw beef – usually tenderloin or round steak – seasoned with niter kibbeh, mitmita, berbere, and awaze (chili mustard sauce). Like kitfo, it’s usually served with injera.`,
+    place: "Addis Ababa",
   },
 
   {
@@ -76,6 +77,7 @@ const menuData = [
     price: 15.99,
     img: "https://cdn.tasteatlas.com//images/dishes/685b5e5b70b441a7a4e7279a43a89333.jpg?w=905&h=510",
     desc: `Kixa fir-fir is a fit-fit variety prepared with a combination of torn pieces of kitcha flatbread, clarified butter, and berbere spices. The dish is traditionally served for Breakfast, when it’s accompanied by plain yogurt. Unlike most Ethiopian dishes, kitcha fit-fit is typically consumed with a spoon instead of using the right hand. `,
+    time: "Available from 7AM - 11AM",
   },
 ];
 
