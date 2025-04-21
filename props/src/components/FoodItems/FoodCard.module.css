@@ -41,6 +41,27 @@
 
 .foodDesc {
   padding: 0 20px;
-  font-size: 15px;
+  font-size: 10px;
   font-weight: 300;
+  margin-bottom: 0px;
+}
+
+.category {
+  background-color: #ff9500;
+  padding: 20px 10px;
+  margin: 0px 10px;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;   /* center horizontally */
+  align-items: flex-end;     /* push to bottom */
+  height: 2px;             /* give it height to see the effect */
+}
+
+@media (max-width: 768px) {
+  .single-food {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 36px;
+  }
 }
