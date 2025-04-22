@@ -57,6 +57,13 @@
   align-items: center;     /* push to bottom */
   height: 2px;             /* give it height to see the effect */
 }
+.extraInfo{
+  text-align: center;
+  text-decoration: none;
+}
+.extraInfo a{
+  text-decoration: none;
+}
 
 @media (max-width: 768px) {
   .single-food {

@@ -17,7 +17,7 @@ class FoodCard extends Component {
           <p>${price}</p>
         </div>
         <div className={styles.foodDesc}>{desc}</div>
-        {/* ✅ Conditionally render if fields exist */}
+        {/*  Conditionally render if fields exist using && */}
         {link && (
           <div className={styles.extraInfo}>
             <strong>Link:</strong> <a href="#">{link}</a>
